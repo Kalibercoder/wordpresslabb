@@ -1,12 +1,8 @@
 <?php 
-// Add error reporting at the top
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-// Debug header
-echo "<!-- Debug: Before header -->";
 get_header();
-echo "<!-- Debug: After header -->";
 ?>
 
 <main>
