@@ -1,6 +1,4 @@
 <?php 
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
 
 get_header();
 ?>
@@ -20,17 +18,13 @@ get_header();
             <?php
         endwhile;
     else :
-        echo "<!-- Debug: No posts found -->";
         ?>
         <p>No posts found.</p>
     <?php 
     endif;
-    echo "<!-- Debug: After loop -->";
     ?>
 </main>
 
 <?php 
-echo "<!-- Debug: Before footer -->";
 get_footer();
-echo "<!-- Debug: After footer -->";
 ?>
