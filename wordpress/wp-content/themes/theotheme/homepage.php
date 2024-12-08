@@ -1,9 +1,10 @@
-
 <?php
-/*
-Template Name: undersida3
-En textspalt över hela sidans innehållsbredd
+
+/* 
+Template Name: homepage
+Description: homepage with img in middle
 */
+
 get_header(); ?>
 
 <?php get_template_part('nav'); ?>
@@ -15,13 +16,13 @@ get_header(); ?>
             the_post();
             ?>
             <h1 class="page-title"><?php the_title(); ?></h1>
-            <div class="page-content-text-wide">
-                <?php the_content(); ?>
-            </div>
             <div class="image-container">
                 <?php if (has_post_thumbnail()) : ?>
                     <?php the_post_thumbnail('large', array('class' => 'centered-img')); ?>
                 <?php endif; ?>
+            </div>
+            <div class="page-content-home">
+                <?php the_content(); ?>
             </div>
             <?php
         endwhile;
@@ -30,5 +31,3 @@ get_header(); ?>
 </main>
 
 <?php get_footer(); ?>
-
-

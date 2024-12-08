@@ -1,3 +1,17 @@
+/* General CSS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+link {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Home Page */
+
 
 /* HEADER */
 #header {
@@ -103,7 +117,7 @@
 }
 
 .content {
-    text-align: center; /* Center the content */
+    text-align: center; 
 }
 
 .page-title {
@@ -119,7 +133,63 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    max-width: 100%;
-
+    max-width: auto;
 }
+ /* LIST STYLE */
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center;
+}
+
+
+.page-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.page-content {
+    text-align: left; 
+    margin-top: 20px;
+}
+
+.sidebar {
+    flex: 0 0 200px;
+    margin: 20px;
+}
+
+.sidebar-right {
+   text-align: end;
+  }
+
+.page-list {
+    list-style: none;
+    padding: 0;
+}
+
+.page-list li {
+    margin-bottom: 10px;
+}
+
+.page-list a {
+    color: #333;
+    text-decoration: none;
+}
+
+.page-list a:hover {
+    text-decoration: underline;
+}
+
+/* undersida 3 */
+
+.page-content-wide-text {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* undersida 4 */
+
+
+
