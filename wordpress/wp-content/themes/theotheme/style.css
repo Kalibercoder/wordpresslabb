@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    
 }
 
 link {
@@ -47,6 +50,7 @@ link {
     color: white;
     padding: 20px 0;
     text-align: center; 
+ 
 }
 
 #footer-real .footer-container {
@@ -189,7 +193,60 @@ link {
     margin-bottom: 20px;
 }
 
+
+
 /* undersida 4 */
 
+.container-undersida4 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
 
+.wp-image-36 {
+    width: 50%;
+}
 
+/* 404 */
+
+.container-404 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content-wrapper-404 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.page-title-404 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.page-content-404 p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.page-content-404 a {
+    color: #0073aa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.page-content-404 a:hover {
+    text-decoration: underline;
+}
+
+/* Message form */
+
+.container-message {
+    margin-top: 50px;
+    min-height: 60vh;
+}
